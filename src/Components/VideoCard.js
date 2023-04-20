@@ -18,5 +18,4 @@ function VideoCard({ data }) {
 }
 
 export default VideoCard;
-//AIzaSyC4JMXtOWAiytdpZHnZWOdEzLc2Fp98Fuo
-//https://www.googleapis.com/youtube/v3/search?key=AIzaSyC4JMXtOWAiytdpZHnZWOdEzLc2Fp98Fuo&part=snippet,id&order=date&maxResults=20
+
