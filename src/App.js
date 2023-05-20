@@ -4,13 +4,13 @@ import Head from "./Components/Head";
 import MainContainer from "./Layouts/MainContainer";
 //import Todo from "./Layouts/Todo";
 import store from "./Utility/store";
+import HeroContent from "./Components/HeroContent";
 
 function App() {
   return (
     <Provider store={store}>
       <div>
-        <Head />
-        <MainContainer />
+        <HeroContent />
       </div>
     </Provider>
   );
