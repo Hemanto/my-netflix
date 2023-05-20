@@ -6,9 +6,9 @@ import style from "../assets/css/container.module.scss";
 function MainContainer() {
   return (
     <div className={style.wrapper}>
-      <div>
-        <Sidemenu />
-      </div>
+  <div>
+    <Sidemenu/>
+  </div>
       <div>
         <ClipSection />
         <VideoSection />

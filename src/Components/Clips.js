@@ -2,7 +2,7 @@ import React from "react";
 import style from "../assets/css/clips.module.scss";
 
 function Clips({ scrollValue }) {
-  const clip = new Array(35).fill(" ");
+  const clip = new Array(15).fill(" ");
 
   return (
     <div className={style.scroll}>
