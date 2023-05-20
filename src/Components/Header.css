@@ -1,0 +1,35 @@
+.nav{
+    width:100%;
+    height:30px;
+    position: fixed;
+    background-color: black;
+    top:0;
+    z-index: 1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav__logo{
+    left:20px;
+    width:120px;
+    position: fixed;
+}
+button{
+    background-color: red;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+.language{
+    background-color: transparent;
+    padding: 7px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 20px;
+    border-color: aliceblue;
+    color: white;
+}
