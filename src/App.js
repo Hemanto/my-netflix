@@ -10,10 +10,12 @@ import HeroContent from "./Components/HeroContent";
 function App() {
   return (
     <div>
+
       <div className="wrapper">
         <Header />
         <HeroContent />
       </div>
+
     </div>
   );
 }
