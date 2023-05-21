@@ -7,7 +7,7 @@ function VideoSection() {
   useEffect(() => {
     //api Key missing
     fetch(
-      "https://www.googleapis.com/youtube/v3/search?key=&part=snippet,id&order=date&maxResults=20"
+      "https://www.googleapis.com/youtube/v3/search?key=AIzaSyC4JMXtOWAiytdpZHnZWOdEzLc2Fp98Fuo&part=snippet,id&order=date&maxResults=20"
     )
       .then((res) => res.json())
       .then((data) => setVideos(data.items));
