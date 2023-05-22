@@ -1,0 +1,28 @@
+.wrapper {
+  background-color: rgba(19, 33, 68, 1);
+  padding: 12px;
+  margin: 0 0 0.5rem 0;
+  transition-duration: 250ms;
+  transition-property: background-color;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    span {
+      font-size: 50px;
+    }
+    .rotate {
+      rotate: 47deg;
+    }
+  }
+  .header:hover {
+    background-color: rgba(19, 33, 68, 1);
+  }
+}
+.content {
+  padding: 12px;
+  margin: 0 0 0.5rem 0;
+  transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+  //   background-color: rgba(34, 51, 98, 1);
+  background-color: rgba(19, 33, 68, 1);
+}
